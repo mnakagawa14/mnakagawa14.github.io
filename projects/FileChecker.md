@@ -11,7 +11,7 @@ labels:
 summary: "A modular file checker designed to interact with servers using Tapis framework. It is intended to be run in a server workflow to ensure that scheduled automated uploads have occurred."
 ---
 
-<img class="img-fluid" src="..img/Tapis.PNG">
+<img class="img-fluid" src="../img/Tapis.PNG">
 
 I created this program during my 2023 summer internship at UH Manoa working for Dr. Cleveland. The goal of this project is to create a file checking program utilizing the Tapis API that will check if scheduled research data has been uploaded and send a notification of any errors or missing files. As a starting point, I utilized a simple python script written by a former team member that accessed a Tapis server and listed all files. 
 
