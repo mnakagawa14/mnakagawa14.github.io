@@ -43,7 +43,7 @@
       "area": "Chemistry",
       "studyType": "B.S.",
       "startDate": "",
-      "endDate": "",
+      "endDate": "2021-05-30",
       "courses": [
       ]
     }
@@ -54,7 +54,7 @@
       "position": "Research Intern",
       "website": "",
       "startDate": "2023-05-29",
-      "endDate": "2023-10-23",
+      "endDate": "2023-08-23",
       "summary": "",
       "highlights": [
         "Leveraged the Tapis API to enable user-friendly configuration of server workflows for non-technical researchers",
@@ -62,58 +62,57 @@
       ]
     },
     {
-      "company": "",
-      "position": "",
+      "company": "University of Hawaii",
+      "position": "Computer Science TA",
       "website": "",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2023-08-31",
+      "endDate": "Present",
+      "summary": "ICS 111 TA",
+      "highlights": [
+        "Assists students in learning Java",
+        "Teaches fundemental concepts of programming"
+      ]
+    },
+    {
+      "company": "University of Hawaii",
+      "position": "Math Tutor/Grader",
+      "website": "",
+      "startDate": "2022-08-29",
+      "endDate": "Present",
       "summary": "",
       "highlights": [
-        "",
-        ""
+        "Teaches students topics in linear algebra",
+        "Assists in grading"
+      ]
+    },
+    {
+      "company": "University of Hawaii",
+      "position": "Administrative Assitant",
+      "website": "",
+      "startDate": "2019-06-01",
+      "endDate": "2021-08-20",
+      "summary": "",
+      "highlights": [
+        "Held a leadership position in a dynamic office environment with the responsibility to train new team members"
+      ]
+    },
+    {
+      "company": "Kapiolani Community College",
+      "position": "Lab Prep Assistant",
+      "website": "",
+      "startDate": "2017-01-04",
+      "endDate": "2017-05-20",
+      "summary": "",
+      "highlights": [
+        "Developed a new lab procedure for acetaminophen synthesis, resulting in greater and higher quality yields for students"
       ]
     }
   ],
   "volunteer": [
-    {
-      "organization": "",
-      "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "",
-        ""
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "",
-        "",
-        ""
-      ]
-    }
+    
   ],
   "awards": [
-    {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
-    },
-    {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
-    }
+    
   ],
   "references": [
     {
