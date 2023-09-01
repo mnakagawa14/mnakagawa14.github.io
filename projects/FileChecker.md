@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/TapisSquare.png
+image: img/TapisSquare.PNG
 title: "Tapis File Checker"
 date: 2023
 published: true
