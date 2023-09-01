@@ -5,18 +5,18 @@
     "picture": "https://github.com/mnakagawa14.png",
     "email": "michaelnakagawa14@gmail.com",
     "phone": "",
-    "website": "https://mnakagawa14.github.io",
+    "website": "",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2024.",
     "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "mnakagawa14", "url": "http://github.com/mnakagawa14" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" }
+      { "network": "linkedin", "username": "", "url": "" }
     ]
   },
   "interests": [
-    { "name": "Software Engineering" },
-    { "name": "Web Design" },
-    { "name": "Chemistry" }
+    { "name": "Software Engineering"},
+    { "name": "Web Design"},
+    { "name": "Chemistry"}
   ],
   "skills": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "Windows", "Ubuntu", "Git/GitHub"]
     }
   ],
   "education": [
@@ -50,12 +50,13 @@
   ],
   "work": [
     {
-      "company": "",
-      "position": "",
+      "company": "University of Hawaii",
+      "position": "Research Intern",
       "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "startDate": "2023-05-29",
+      "endDate": "2023-10-23",
+      "summary": "Worked with a team of developers, leveraging the Tapis API to enable user-friendly configuration of server workflows for non-technical researchers. Enhanced data visualization through manipulation of geolocation-tagged databases, while maintaining confidentiality by obfuscating precise locations.
+",
       "highlights": [
         "",
         ""
