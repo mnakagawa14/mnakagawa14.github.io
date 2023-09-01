@@ -4,7 +4,7 @@ type: project
 image: img/MastermindSquare.jpg
 title: "Mastermind"
 date: 2022
-published: false
+published: true
 labels:
   - Java
   - Algorithms
