@@ -22,4 +22,4 @@ I changed all many variables to environmental variables that would be passed to 
 I learned quite a bit working on this project. It was my first experience with Docker and it showed me how powerful containerization can be. I ran into many problems with the SMTP email portion of the project, but my advisor Dr. Cleveland and other team members provided very helpful advice.
 
 
-Source: <a href="https://github.com/UH-CI/file-tester-tapis"><i class="large github icon "></i>UH-CI/file-tester-tapis</a>
+Source: <a href="https://github.com/UH-CI/file-tester-tapis">UH-CI/file-tester-tapis</a>
