@@ -4,7 +4,7 @@ type: project
 image: img/tapissquare.png
 title: "Tapis File Checker"
 date: 2023
-published: false
+published: true
 labels:
   - Python
   - GitHub
