@@ -4,7 +4,7 @@ type: project
 image: img/SpaceInvadersSquare.jpg
 title: "Space Invaders Clone"
 date: 2022
-published: false
+published: true
 labels:
   - Java
   - Game Design
