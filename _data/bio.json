@@ -10,7 +10,7 @@
     "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "mnakagawa14", "url": "http://github.com/mnakagawa14" },
-      { "network": "linkedin", "username": "Michael Nakagawa", "url": "www.linkedin.com/in/michael-nakagawa" }
+      { "network": "linkedin", "username": "Michael Nakagawa", "url": "http://linkedin.com/in/michael-nakagawa" }
     ]
   },
   "interests": [
