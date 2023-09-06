@@ -8,7 +8,6 @@ published: true
 labels:
   - Learning
 ---
-From Curiosity to Understanding: The Goal of Smart Questions
 
 Communication is one of the most important skills to have in any career. It can be the difference between an efficient development process and hours of troubleshooting and stalled progress. There are many resources available on the web that allow developers to tap into each other's expertise, however StackOverflow is perhaps the most prominent.
 
