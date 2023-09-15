@@ -24,7 +24,7 @@ I can definitely see why the ability to quickly update and parse human-readable 
 
 As I continued to work with JavaScript, I began to appreciate the flexibility that its weak typing of variables allows.
 It greatly speeds up the process of writing simple programs by reducing the need to explicitly cast data types.
-Although I’m still weary of errors and unintentional behavior in more complex code, JavaScript has allowed me to focus more on accomplishing the goal and less on the minutiae of how to get there.
+Although I’m still wary of errors and unintentional behavior in more complex code, JavaScript has allowed me to focus more on accomplishing the goal and less on the minutiae of how to get there.
 I am very excited to have JavaScript in my programming toolbox. My main concern now is will I be able to efficiently switch between JavaScript and other more restrictive languages.
 I could see myself becoming accustomed to the looser approach of JavaScript and becoming slower with other languages.
 
