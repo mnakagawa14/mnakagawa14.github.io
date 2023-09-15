@@ -13,7 +13,7 @@ When first approaching JavaScript, I was first struck by its seeming similarity 
 Java is my first and primary programming language, so at surface level, some of the syntax seemed familiar compared to other languages like Python.
 However, I quickly realized how different of a language JavaScript truly is. It felt wrong not having to declare variable types as Java had accustomed me to.
 
-Even odder was the decision to make all variables declared without 'var', 'let', or 'const' global variables by default.
+Even odder was the decision to make all variables declared without `var`, `let`, or `const` global variables by default.
 I questioned why I would want to use a language in which a forgotten keyword could lead to hours of headaches and bug fixing.
 Global variables seemed to serve a similar function to pointers in C, but defining and declaring pointers in C was a much more deliberate syntax.
 
