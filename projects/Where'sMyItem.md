@@ -4,7 +4,7 @@ type: project
 image: img/Where'sMyitem.PNG
 title: "Where's My Item"
 date: 2023
-published: false
+published: true
 labels:
   - JavaScript
   - Web Application
