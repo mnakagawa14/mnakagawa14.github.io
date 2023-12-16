@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Mastermind | Michael Nakagawa | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/mnakagawa14.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Michael Nakagawa | Professional Portfolio">
+    <meta property="og:url" content="https://mnakagawa14.github.io/projects/Mastermind.html">
+    <meta property="og:title" content="Mastermind | Michael Nakagawa | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/mnakagawa14.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Mastermind | Michael Nakagawa | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Michael Nakagawa</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Mastermind</h1>
+ <p><img class="img-fluid" src="../img/Mastermind.png" /></p>
+
+<hr />
+
+<p>I started this project while I was taking a course on algorithms. In class we were given many different problems to solve as efficiently as possible using the data structures and algorithms we were learning about. Some of these puzzles reminded me of a board game I used to play with my Dad called Mastermind. In this game one player, the code maker, would create a code sequence of a specific length out of colored pieces. The second player, the code breaker, tries to guess the sequence within a number of tries. After each guess the code maker must reveal how many elements of the code have been guessed correctly (right color and correct spot) and how many are partially correct (right color but wrong spot).</p>
+
+<p>I wanted to make a single player version of this game with multiple difficulty levels which would correspond to the efficiency of the algorithm used to solve the code. I started by designing the basic mechanics of the game using a text based interface. Designing the mode where the player was the code breaker was relatively easy. All I needed to do was display previous guesses and the feedback on correct and partially correct elements. The fun part was implementing the algorithms for the computer to use as the code breaker.</p>
+
+<p>The easiest difficulty was using an inefficient algorithm. It would try to brute force the code by guessing random combinations. Although this approach is guaranteed to eventually find the right solution, it was very inefficient in terms of turns taken. The medium difficulty improved the efficiency by utilizing the feedback given to eliminate guesses. It would guess all one color, to determine how many elements of the code it comprised. It would then try to find the correct positions for each color. This behaves the most similarly to how I played the game with my Dad.</p>
+
+<p>The hardest difficulty utilized Knuth’s algorithm. The algorithm starts with a list of all possible codes. Before each guess, the algorithm determines which guess will maximize information gained and therefore minimize the number of possible guesses on the next turn. This is less resource efficient than other algorithms, requiring more memory and processing time. This is because the algorithm simulates the possibilities of each possible guess before it is made. It does however solve the code within a few guesses. For a four digit code with six possible colors, it usually solved the code within 4-5 guesses.</p>
+
+<p>This project was a fun way for me to practice my algorithm skills. It allowed me to revisit a childhood game using my newly honed computer science techniques. It taught me that oftentimes, the most natural human approach to solving a problem is suboptimal due to the limitations of our brain. It would take an hour and dozens of pages of paper to play a game of Mastermind using Knuth’s algorithm by hand. However, we can use computers to overcome our brain’s deficiencies.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

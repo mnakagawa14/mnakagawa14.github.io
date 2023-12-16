@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Tapis File Checker | Michael Nakagawa | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/mnakagawa14.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Michael Nakagawa | Professional Portfolio">
+    <meta property="og:url" content="https://mnakagawa14.github.io/projects/FileChecker.html">
+    <meta property="og:title" content="Tapis File Checker | Michael Nakagawa | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/mnakagawa14.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Tapis File Checker | Michael Nakagawa | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Michael Nakagawa</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Tapis File Checker</h1>
+ <p><img class="img-fluid" src="../img/Tapis.PNG" /></p>
+
+<hr />
+
+<p>I created this program during my 2023 summer internship at UH Manoa working for Dr. Cleveland. The goal of this project is to create a file checking program utilizing the Tapis API that will check if scheduled research data has been uploaded and send a notification of any errors or missing files. As a starting point, I utilized a simple python script written by a former team member that accessed a Tapis server and listed all files.</p>
+
+<p>I modified the script so that it would check the server for all files listed in a template upload schedule. I added a name changer which used the system time and date to automatically modify the file name on the template, eliminating the need to pass a list of uploaded files every run. To account for changes in the file upload schedule, a link to a new template can be passed to the application. Next I created a messaging script, which used SMTP to email a list of any missing files or errors encountered.</p>
+
+<p>I changed all many variables to environmental variables that would be passed to the container when it is run. This allows server login details to be more secure. In addition it allowed other things like email addresses, subject lines, and servers to be changed without having to update the code. Finally I utilized Docker containerization for portability and scalability with easy integration with server workflows.</p>
+
+<p>I learned quite a bit working on this project. It was my first experience with Docker and it showed me how powerful containerization can be. I ran into many problems with the SMTP email portion of the project, but my advisor Dr. Cleveland and other team members provided very helpful advice.</p>
+
+<p>Source: <a href="https://github.com/UH-CI/file-tester-tapis">UH-CI/file-tester-tapis</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
