@@ -16,7 +16,7 @@ In my experience working with raw HTML and CSS is quite tedious. Creating each e
 I found that using the [Bootstrap 5](https://getbootstrap.com/) framework allowed me to streamline the process. Its library of pre-designed components and grid system eliminated much of the trial and error. With Bootstrap 5, I can quickly implement a basic navigation bar, and most of the time, I only need to make small tweaks. This saves a substantial amount of time and allows me to focus more on the unique parts of a web page.
 
 <img class="img-fluid" src="../img/IslandSnowBootstrap.png">
-#### A webpage mockup created with bootstrap
+### A webpage mockup created with bootstrap
 
 However, I often find myself searching through Bootstrap’s documentation, especially when I need to fine-tune specific aspects of my design. While Bootstrap 5 undeniably expedited the development process, it can be difficult to remember if a specific design choice can be achieved with a Bootstrap class or if it would be more efficient to use a custom CSS. Bridging the gap between the predefined and personalized aspects of web design is a challenging part of the learning process with Bootstrap.
 
