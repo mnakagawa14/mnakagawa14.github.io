@@ -10,8 +10,6 @@ labels:
   - Agile Project Management
   - Design Patterns
 ---
-# A Reflection on the Lessons of Software Engineering
-
 ## Introduction
 Over the semester, my software engineering course has laid a robust groundwork in the field. Although the course’s technology stack focused on web application development, it is evident that the tools it has provided are useful in all aspects of software development. The curriculum has provided a comprehensive exploration of fundamental software engineering concepts, each serving as building blocks for a broader understanding of software development.
 
