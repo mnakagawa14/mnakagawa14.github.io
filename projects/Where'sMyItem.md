@@ -27,11 +27,19 @@ The technology stack employed for the development of "Where’s My Item?" incorp
 
 ## Development
 We followed the Agile methodology in our development process, using the iterative process to foster collaboration, and adaptability. Adopting this approach allowed us to divide the development of "Where’s My Item?" into distinct milestones, each contributing to the project's evolution.
+
 In Milestone 1, our focus was on creating a solid foundation for the web application. We successfully deployed the initial landing page, providing a starting point for subsequent development. This milestone incorporated mockups and aimed to establish the basic structure and user interface design.
+
 During Milestone 1, I crafted a mockup for the Admin Page, designed to allow administrators to manage lost items. The items were categorized into those with claims and those without, streamlining the admin's ability to navigate through and manage claims effectively. Additionally, I designed a mockup for the item card, intended for displaying items across multiple pages in a standardized format.
+
 Moving to Milestone 2, our focus shifted to implementing the core functionality of our application. We dedicated efforts to fine-tune each page, ensuring it operated as intended while maintaining consistency with our overarching site style. To test functionality, we incorporated hardcoded data, deferring the database implementation to the subsequent milestone.
+
 During Milestone 2, I undertook the implementation of the Admin page alongside the Add and Edit Item pages. My primary focus was on presenting all items in a user-friendly and easily readable format.
+
 For Milestone 3, our goals included further functionality enhancements, the completion of outstanding pages, and refining the site based on community feedback.
+
 In Milestone 3, I took on the implementation of MongoDB for items, employing the subscriber-publisher model to ensure seamless live updates. Additionally, I contributed to updating the site's instructions, incorporating valuable insights gathered from community feedback.
+
 ## Conclusion
+
 In conclusion, the "Where’s My Item?" project provided a holistic learning experience, encompassing technical skills, teamwork dynamics, and the application of agile principles in real-world software engineering. It illuminated the complexities and nuances involved in the development lifecycle while reinforcing the significance of adaptability, collaboration, and a user-focused mindset.
