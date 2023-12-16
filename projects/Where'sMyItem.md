@@ -15,9 +15,8 @@ labels:
 summary: "A website designed to allow the UH Manoa Lost Item office to list the many lost items that have been found on campus. Students can see and file claims for lost items. Admins can then verify their claim’s authenticity using the information provided in a claim form."
 ---
 
-<img class="img-fluid" src="../img/WheresMyItem-Items.PNG">
+<img class="img-fluid" src="../img/WheresMyItems-Items.png">
 
-<hr>
 ## Purpose
 I collaborated with a team of four peers to design and develop a website named [Where’s My Item?](https://wheres-my-item.github.io/) as my final project in ICS 314 Software Engineering at UH Manoa. "Where’s My Item?" serves as a web application designed to facilitate the process of finding and claiming lost items on the UH Manoa campus. The site allows the UH Manoa Lost Item office to list found items, providing students with a platform to search for and potentially reclaim their lost possessions. Users can browse a comprehensive list of found items, filter them based on category, submit claims for specific items, and provide necessary details for verification. Admins can manage items and view claims associated with them, ensuring a streamlined process for item recovery. The site aims to automate and simplify the lost and found process, enhancing the overall efficiency and user experience.
 
@@ -35,6 +34,8 @@ During Milestone 1, I crafted a mockup for the Admin Page, designed to allow adm
 Moving to Milestone 2, our focus shifted to implementing the core functionality of our application. We dedicated efforts to fine-tune each page, ensuring it operated as intended while maintaining consistency with our overarching site style. To test functionality, we incorporated hardcoded data, deferring the database implementation to the subsequent milestone.
 
 During Milestone 2, I undertook the implementation of the Admin page alongside the Add and Edit Item pages. My primary focus was on presenting all items in a user-friendly and easily readable format.
+
+<img class="img-fluid" src="../img/WheresMyItem-Admin.png">
 
 For Milestone 3, our goals included further functionality enhancements, the completion of outstanding pages, and refining the site based on community feedback.
 
