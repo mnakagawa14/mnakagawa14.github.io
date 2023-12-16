@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Where'sMyItem.png
+image: img/WheresMyItem.png
 title: "Where's My Item"
 date: 2023
 published: true
@@ -15,7 +15,7 @@ labels:
 summary: "A website designed to allow the UH Manoa Lost Item office to list the many lost items that have been found on campus. Students can see and file claims for lost items. Admins can then verify their claim’s authenticity using the information provided in a claim form."
 ---
 
-<img class="img-fluid" src="../img/Where'sMyItem-Items.PNG">
+<img class="img-fluid" src="../img/WheresMyItem-Items.PNG">
 
 <hr>
 ## Purpose
